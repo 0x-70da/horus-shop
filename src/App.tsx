@@ -25,7 +25,7 @@ const App = () => (
   <Provider store={store}>
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
-        <div className="dark">
+        <div>
           <Toaster />
           <Sonner />
           <BrowserRouter>
